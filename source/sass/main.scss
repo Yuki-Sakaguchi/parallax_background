@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+@import "compass";
+@import "compass/reset";
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  line-height: 25px;
+}
+
+.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.parallax-img-1 {
+  background-image: url(../images/01.jpg);
+}
+
+.parallax-img-2 {
+  background-image: url(../images/02.jpg);
+}
+
+.parallax-img-3 {
+  background-image: url(../images/03.jpg);
+}
+
+.parallax-img-4 {
+  background-image: url(../images/04.jpg);
+}
+
+.content {
+  padding: 150px 30px;
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+
+  h3 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+}
+
+.box {
+  max-width: 960px;
+  margin: 0 auto;
+
+  h2 {
+    line-height: 600px;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+}
